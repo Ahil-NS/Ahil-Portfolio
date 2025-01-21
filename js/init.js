@@ -514,7 +514,7 @@ function ahil_tm_owl_carousel(){
 		
 	});
 	
-	var carousel2			= jQuery('.ahil_tm_partners .owl-carousel');
+	var carousel2			= jQuery('.ahil_all_apps .owl-carousel');
 
 	carousel2.owlCarousel({
 		loop: true,

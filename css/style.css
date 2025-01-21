@@ -1968,6 +1968,13 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+.subtitle {
+    display: block; /* Moves to the next line */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #000000; /* Optional: Change color to distinguish */
+    margin-top: 5px; /* Add space above if needed */
+}
+
 .ahil_tm_news .news_list > ul > li .right:hover .main{
 	transform: scale(1.1) translateZ(0);
 }
@@ -2077,14 +2084,14 @@ h6 { font-size: 16px; }
 /*	12) ahil PARTNERS
 /*---------------------------------------------------*/
 
-.ahil_tm_partners{
+.ahil_all_apps{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 40px 0px 110px 0px;
 }
-.ahil_tm_partners .partners_list{
+.ahil_all_apps .apps_list{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -2092,14 +2099,14 @@ h6 { font-size: 16px; }
 	margin-top: 35px;
 	position: relative;
 }
-.ahil_tm_partners .partners_list ul{
+.ahil_all_apps .apps_list ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.ahil_tm_partners .partners_list ul li{
+.ahil_all_apps .apps_list ul li{
 	margin: 0px;
 }
-.ahil_tm_partners .partners_list ul li img{
+.ahil_all_apps .apps_list ul li img{
 	opacity: .5;
 	
 	-webkit-transition: all .3s ease;
@@ -2108,7 +2115,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.ahil_tm_partners .partners_list ul li:hover img{
+.ahil_all_apps .apps_list ul li:hover img{
 	opacity: 1;
 }
 
