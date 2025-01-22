@@ -2644,3 +2644,9 @@ h6 { font-size: 16px; }
     margin-bottom: 10px; /* Space between bullet points */
     transition: color 0.3s ease; /* Smooth hover effect */
 }
+.ahil_tm_modalbox .popup_details .top_image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Adjust based on your design needs */
+}

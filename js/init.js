@@ -207,7 +207,18 @@ function ahil_tm_modalbox_portfolio(){
 		var title	 	= parent.find('.details .title').text();
 		modalBox.addClass('opened');
 		modalBox.find('.description_wrap').html(content);
-		modalBox.find('.popup_details').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
+
+			     // Add the image with fixed width and height, ensuring it loads properly
+		modalBox.find('.popup_details').prepend(`
+			<div class="top_image" style="position: relative; overflow: hidden;">
+				 <img 
+					 src="${image}" 
+					 alt="${title}" 
+					 style="width: 100%; max-width: 300px; height: 300px; display: block;" 
+					 onload="this.style.opacity='1'" 
+				 />
+			 </div>
+		 `);
 		modalBox.find('.popup_details .top_image').after('<div class="portfolio_main_title"><span><a href="#">'+category+'</a></span><h3>'+title+'</h3><div>');
 		ahil_tm_data_images();
 		return false;
