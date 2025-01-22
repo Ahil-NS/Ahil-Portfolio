@@ -727,7 +727,6 @@ h6 { font-size: 16px; }
 	padding-right: 50px;
 }
 .ahil_tm_about .left .box{
-	background-color: #FFC448;
 	display: inline-block;
 	overflow: hidden;
 	padding-bottom: 85px;
@@ -2630,18 +2629,6 @@ h6 { font-size: 16px; }
 
 .expert-areas {
     padding: 20px 0; /* Add spacing around the section */
-}
-
-.expert-areas .ahil_tm_main_title h3 {
-    font-size: 32px; /* Title font size */
-    font-weight: 700; /* Bold for emphasis */
-    color: var(--main-color); /* Use main color */
-    line-height: 1.4; /* Improved line spacing */
-    margin-bottom: 15px; /* Space below the title */
-}
-
-.expert-areas .ahil_tm_main_title h3 span {
-    display: block; /* Ensure text breaks into separate lines */
 }
 
 .expert-areas .text ul {
