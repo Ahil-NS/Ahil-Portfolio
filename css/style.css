@@ -2576,3 +2576,53 @@ h6 { font-size: 16px; }
 	.ahil_tm_modalbox .description_wrap:before{height: 20px;}
 	.ahil_tm_modalbox .description_wrap:after{height: 20px;}
 }
+
+/*---------------------------------------------------*/
+/*	 Skills
+/*---------------------------------------------------*/
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+    font-family: var(--font-family);
+    line-height: var(--line-height, 1.6);
+}
+
+.skill {
+    background: #fff; 
+    border: 1px solid #e0e0e0;
+    border-radius: 12px; 
+    padding: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.skill strong {
+    color: var(--main-color);
+    font-size: 18px; 
+    margin-bottom: 12px; 
+    font-family: var(--font-family-extra); 
+}
+
+.skill ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: var(--main-color);
+}
+
+.skill ul li {
+    margin-bottom: 8px; 
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+.skill ul li:last-child {
+    margin-bottom: 0;
+}
