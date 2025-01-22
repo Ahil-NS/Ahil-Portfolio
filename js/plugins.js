@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2025 ahil
- * Author: ahil
+ * Copyright (c) 2025 Ahil
+ * Author: Ahil
  * This file is made for CURRENT TEMPLATE
 */
 
