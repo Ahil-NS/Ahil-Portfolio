@@ -2626,3 +2626,34 @@ h6 { font-size: 16px; }
 .skill ul li:last-child {
     margin-bottom: 0;
 }
+
+
+.expert-areas {
+    padding: 20px 0; /* Add spacing around the section */
+}
+
+.expert-areas .ahil_tm_main_title h3 {
+    font-size: 32px; /* Title font size */
+    font-weight: 700; /* Bold for emphasis */
+    color: var(--main-color); /* Use main color */
+    line-height: 1.4; /* Improved line spacing */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.expert-areas .ahil_tm_main_title h3 span {
+    display: block; /* Ensure text breaks into separate lines */
+}
+
+.expert-areas .text ul {
+    list-style-type: disc; /* Use a disc bullet style */
+    padding-left: 20px; /* Indent the list */
+    color: var(--main-color); /* Match list color to theme */
+}
+
+.expert-areas .text ul li {
+    font-size: 18px; /* Font size for readability */
+    line-height: 1.6; /* Add spacing between lines */
+    font-family: var(--font-family); /* Consistent font family */
+    margin-bottom: 10px; /* Space between bullet points */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
